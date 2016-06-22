@@ -1,0 +1,18 @@
+# rpi stoplight settings
+
+# how often to check
+UPDATE_INTERVAL=60
+
+# what board pins to use for each color (GPIO.BOARD numbering)
+RED=22
+YELLOW=18
+GREEN=16
+
+# active high? or low? set it here.
+ON=False
+OFF=True
+
+# Ops Genie settings
+OG_API_URL='https://api.opsgenie.com/v1/json/alert'
+OG_API_KEY=''
+OG_TEAMS=''
