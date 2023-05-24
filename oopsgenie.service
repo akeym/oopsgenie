@@ -1,0 +1,12 @@
+[Unit]
+Description=Stoplight Controller
+After=network.target
+
+[Service]
+Type=forking
+User=pi
+Restart=no
+ExecStart=/home/pi/boot.sh
+
+[Install]
+WantedBy=multi-user.target
